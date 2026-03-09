@@ -156,7 +156,7 @@ export default function Home() {
                   <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <div style={{ textAlign: 'center' }}>
                       <div style={{
-                        width: 128, height: 128, margin: '0 auto', borderRadius: '50%',
+                        width: 120, height: 128, margin: '0 auto', borderRadius: '50%',
                         background: 'linear-gradient(135deg, #daa520, #b8860b)',
                         display: 'flex', alignItems: 'center', justifyContent: 'center',
                         marginBottom: 16, boxShadow: '0 10px 40px rgba(184,134,11,0.4)',
@@ -221,7 +221,7 @@ export default function Home() {
       </section>
 
       {/* SERVICES */}
-      <section style={{ padding: "80px 20px", background: '#faf9f6' }}>
+      <section style={{ padding: 'clamp(60px, 8vw, 150px)', background: '#faf9f6' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ textAlign: 'center' }}>
           <div className="reveal">
             <p className="font-script" style={{ color: '#daa520', fontSize: 20, marginBottom: 8 }}>What We Offer</p>

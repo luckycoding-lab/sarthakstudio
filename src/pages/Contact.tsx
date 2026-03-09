@@ -62,7 +62,7 @@ export default function Contact() {
       </section>
 
       {/* 3-Step */}
-      <section style={{ padding: '48px 0', background: 'linear-gradient(to right, #fdf8ef, white)', borderBottom: '1px solid rgba(218,165,32,0.1)' }}>
+      <section style={{  padding: 'clamp(20px, 8vw, 80px)', background: 'linear-gradient(to right, #fdf8ef, white)', borderBottom: '1px solid rgba(218,165,32,0.1)' }}>
         <div style={{ maxWidth: 800, margin: '0 auto', padding: '0 16px', display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 16 }}>
           {[
             { step: '1', title: 'Inquire', desc: 'Fill the form or call us' },
@@ -79,7 +79,7 @@ export default function Contact() {
       </section>
 
       {/* Contact Form + Info */}
-      <section style={{ padding: 'clamp(60px, 8vw, 150px)', background: 'white' }}>
+      <section style={{  padding: 'clamp(20px, 8vw, 80px)', background: 'white' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 48 }}>
             {/* Form */}
@@ -158,7 +158,7 @@ export default function Contact() {
 
             {/* Contact Info */}
             <div className="reveal" style={{ transitionDelay: '0.2s' }}>
-              <div style={{ background: 'linear-gradient(135deg, #1a1a2e, #2a1a3e)', borderRadius: 24, padding: 32, color: 'white', marginBottom: 24 }}>
+              <div style={{ background: 'linear-gradient(135deg, #1a1a2e, #2a1a3e)', borderRadius: 24, padding: 20, color: 'white', marginBottom: 24 }}>
                 <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: 20, fontWeight: 700, marginBottom: 24 }}>Direct Contact</h3>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
                   {[

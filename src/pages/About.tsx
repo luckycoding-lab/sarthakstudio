@@ -94,9 +94,9 @@ export default function About() {
               <h2 style={{ fontSize: 'clamp(24px, 4vw, 36px)', fontFamily: 'var(--font-serif)', fontWeight: 700, color: '#1a1a2e', marginBottom: 24 }}>
                 Every Step Should Tell <span style={{ color: '#4b0032' }}>Your Story</span>
               </h2>
-              <p style={{ color: '#4b5563', lineHeight: 1.7, marginBottom: 16 }}>I believe that dance is the most beautiful way to express love. When I choreograph a wedding performance, I do not just teach steps - I help you express the emotions, joy, and celebration that your special day deserves.</p>
-              <p style={{ color: '#4b5563', lineHeight: 1.7, marginBottom: 16 }}>My approach is simple: understand your vision, assess your comfort level, choose the perfect music, and create a routine that feels natural and looks spectacular.</p>
-              <p style={{ color: '#4b5563', lineHeight: 1.7, marginBottom: 24 }}>Having trained in Bollywood, Classical, Contemporary, Hip-Hop, and Western dance forms, I bring versatility that allows me to choreograph any style you dream of.</p>
+              <p style={{ color: '#4b5563', lineHeight: 1.7, marginBottom: 16 }}>Dance is the most beautiful way to express love, and when I choreograph a wedding performance, I do not just teach steps—I help you express the emotions, joy, and celebration that your special day deserves.</p>
+              <p style={{ color: '#4b5563', lineHeight: 1.7, marginBottom: 16 }}>My approach is simple: I understand your vision, assess your comfort level, choose the perfect music, and create a routine that feels natural yet looks spectacular. Specializing in Bollywood, the vibrant heart of Indian celebrations where I blend cinematic drama with modern rhythm for a larger-than-life stage presence, and Hip-Hop, where I infuse high-octane urban grooves and sharp, stylish footwork into your routine, I ensure every performance is unique.</p>
+              <p style={{ color: '#4b5563', lineHeight: 1.7, marginBottom: 24 }}>Having trained across these and Classical, Contemporary, and Western dance forms, I bring a level of versatility that allows me to choreograph any style you dream of, turning your vision into an effortless and professional reality.</p>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginBottom: 32 }}>
                 {['Trained in 5+ dance forms', 'Certified dance instructor', 'Specializes in wedding choreography', 'Patient with beginners', 'Creative song mixing and mashups'].map((item, i) => (
                   <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
@@ -115,7 +115,7 @@ export default function About() {
 
       {/* Timeline */}
       <section style={{ padding: 'clamp(60px, 8vw, 150px)', background: '#faf9f6' }}>
-        <div style={{ maxWidth: 800, margin: '0 auto', padding: '0 16px' }}>
+        <div style={{ maxWidth: 800, margin: '0 auto', padding: '0' }}>
           <div className="reveal" style={{ textAlign: 'center', marginBottom: 64 }}>
             <p className="font-script" style={{ color: '#daa520', fontSize: 20, marginBottom: 8 }}>The Journey</p>
             <h2 style={{ fontSize: 'clamp(24px, 4vw, 36px)', fontFamily: 'var(--font-serif)', fontWeight: 700, color: '#1a1a2e' }}>Our Dance Story</h2>
@@ -136,7 +136,7 @@ export default function About() {
 
       {/* Why Choose */}
       <section style={{ padding: 'clamp(60px, 8vw, 150px)', background: 'white' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div style={{ maxWidth: 800, margin: '0 auto', padding: '0' }}>
           <div className="reveal" style={{ textAlign: 'center', marginBottom: 64 }}>
             <p className="font-script" style={{ color: '#daa520', fontSize: 20, marginBottom: 8 }}>What Sets Us Apart</p>
             <h2 style={{ fontSize: 'clamp(24px, 4vw, 36px)', fontFamily: 'var(--font-serif)', fontWeight: 700, color: '#1a1a2e' }}>Why Choose Sarthak</h2>

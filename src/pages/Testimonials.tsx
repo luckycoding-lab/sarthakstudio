@@ -87,7 +87,7 @@ export default function Testimonials() {
       </section>
 
       {/* Horizontal Carousel */}
-      <section style={{ padding: 'clamp(60px, 8vw, 80px)', background: 'white', position: 'relative' }}>
+      <section style={{ padding: 'clamp(20px, 8vw, 80px)', background: 'white', position: 'relative' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="reveal" style={{ textAlign: 'center', marginBottom: 48 }}>
             <p className="font-script" style={{ color: '#daa520', fontSize: 20, marginBottom: 8 }}>Real Stories</p>
