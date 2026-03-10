@@ -4,7 +4,7 @@ import LogoImg from '../assets/Logo/Logo.png';
 export default function Footer() {
   return (
     <footer style={{ background: '#0d0d1a', color: '#9ca3af', position: 'relative', overflow: 'hidden', 
-    padding: '0 50px'}}>
+    padding: '0 20px'}}>
       {/* Gold line */}
       <div style={{ height: 1, background: 'linear-gradient(90deg, transparent, #daa520, transparent)' }} />
 

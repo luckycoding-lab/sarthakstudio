@@ -177,7 +177,7 @@ export default function Home() {
               className="font-script"
               style={{
                 color: "#daa520",
-                fontSize: "clamp(20px, 4vw, 28px)",
+                fontSize: "clamp(10px, 4vw, 28px)",
                 marginBottom: 16,
               }}
             >
@@ -335,7 +335,7 @@ export default function Home() {
 
       {/* ABOUT INTRO */}
       <section
-        style={{ padding: "clamp(60px, 8vw, 112px)", background: "white" }}
+        style={{ padding: "clamp(10px, 8vw, 112px)", background: "white" }}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div
@@ -554,7 +554,7 @@ export default function Home() {
 
       {/* SERVICES */}
       <section
-        style={{ padding: "clamp(60px, 8vw, 150px)", background: "#faf9f6" }}
+        style={{ padding: "clamp(10px, 8vw, 150px)", background: "#faf9f6" }}
       >
         <div
           className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
@@ -642,7 +642,7 @@ export default function Home() {
       {/* VIDEO SHOWCASE - UPDATED WITH REAL VIDEOS */}
       <section
         style={{
-          padding: "clamp(60px, 8vw, 112px)",
+          padding: "clamp(10px, 8vw, 112px)",
           background: "#1a1a2e",
           position: "relative",
           overflow: "hidden",
@@ -829,7 +829,7 @@ export default function Home() {
 
       {/* WHY CHOOSE US */}
       <section
-        style={{ padding: "clamp(60px, 8vw, 112px)", background: "white" }}
+        style={{ padding: "clamp(10px, 8vw, 112px)", background: "white" }}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="reveal" style={{ textAlign: "center" }}>
@@ -984,7 +984,7 @@ export default function Home() {
       {/* CTA */}
       <section
         style={{
-          padding: "clamp(60px, 8vw, 112px)",
+          padding: "clamp(10px, 8vw, 112px)",
           background: "linear-gradient(135deg, #4b0032, #1a1a2e)",
           position: "relative",
           overflow: "hidden",

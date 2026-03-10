@@ -178,7 +178,7 @@ export default function Locations() {
 
       {/* Interactive Map */}
       <section
-        style={{ padding: "clamp(20px, 8vw, 150px)", background: "white" }}
+        style={{ padding: "clamp(10px, 8vw, 150px)", background: "white" }}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div
@@ -541,7 +541,7 @@ export default function Locations() {
 
       {/* All Locations Grid */}
       <section
-        style={{ padding: "clamp(20px, 8vw, 150px)", background: "#faf9f6" }}
+        style={{ padding: "clamp(10px, 8vw, 150px)", background: "#faf9f6" }}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div
@@ -672,7 +672,7 @@ export default function Locations() {
       {/* CTA */}
       <section
         style={{
-          padding: "clamp(20px, 8vw, 150px)",
+          padding: "clamp(10px, 8vw, 150px)",
           background: "linear-gradient(135deg, #1a1a2e, #2a1a3e)",
         }}
       >

@@ -59,7 +59,7 @@ export default function Services() {
       </section>
 
       {/* Choreography Types */}
-      <section style={{ padding: 'clamp(60px, 8vw, 150px)', background: 'white' }}>
+      <section style={{ padding: 'clamp(10px, 8vw, 150px)', background: 'white' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="reveal" style={{ textAlign: 'center', marginBottom: 64 }}>
             <p className="font-script" style={{ color: '#daa520', fontSize: 20, marginBottom: 8 }}>Choreography Types</p>
@@ -129,7 +129,7 @@ export default function Services() {
       </section>
 
       {/* Session Options */}
-      <section style={{ padding: 'clamp(60px, 8vw, 150px)', background: '#faf9f6' }}>
+      <section style={{ padding: 'clamp(10px, 8vw, 150px)', background: '#faf9f6' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="reveal" style={{ textAlign: 'center', marginBottom: 64 }}>
             <p className="font-script" style={{ color: '#daa520', fontSize: 20, marginBottom: 8 }}>Session Options</p>
@@ -160,7 +160,7 @@ export default function Services() {
       </section>
 
       {/* Packages Section */}
-      <section style={{ padding: 'clamp(60px, 8vw, 150px)', background: '#1a1a2e' }}>
+      <section style={{ padding: 'clamp(10px, 8vw, 150px)', background: '#1a1a2e' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           {/* Header */}
@@ -272,7 +272,7 @@ export default function Services() {
       </section>
 
       {/* Booking Widget */}
-      <section style={{ padding: 'clamp(60px, 8vw, 150px)', background: '#faf9f6' }}>
+      <section style={{ padding: 'clamp(10px, 8vw, 150px)', background: '#faf9f6' }}>
         <div style={{ maxWidth: 650, margin: '0 auto', padding: '0 16px' }}>
           <div className="reveal" style={{ textAlign: 'center', marginBottom: 48 }}>
             <p className="font-script" style={{ color: '#daa520', fontSize: 22, marginBottom: 8 }}>Quick Booking</p>

@@ -119,7 +119,7 @@ export default function Gallery() {
       </section>
 
       {/* Video Grid Section */}
-      <section style={{ padding: 'clamp(20px, 8vw, 150px)', background: '#faf9f6' }}>
+      <section style={{ padding: 'clamp(10px, 8vw, 150px)', background: '#faf9f6' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p style={{ color: '#6b7280', fontSize: 14, marginBottom: 32, textAlign: 'center' }}>{filtered.length} performances found</p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: 24 }}>

@@ -57,7 +57,7 @@ export default function About() {
       </section>
 
       {/* Profile */}
-      <section style={{ padding: 'clamp(60px, 8vw, 150px)', background: 'white' }}>
+      <section style={{ padding: 'clamp(10px, 8vw, 150px)', background: 'white' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 64, alignItems: 'center' }}>
           
@@ -189,7 +189,7 @@ export default function About() {
     </section>
 
       {/* Timeline */}
-      <section style={{ padding: 'clamp(60px, 8vw, 150px)', background: '#faf9f6' }}>
+      <section style={{ padding: 'clamp(10px, 8vw, 150px)', background: '#faf9f6' }}>
         <div style={{ maxWidth: 800, margin: '0 auto', padding: '0' }}>
           <div className="reveal" style={{ textAlign: 'center', marginBottom: 64 }}>
             <p className="font-script" style={{ color: '#daa520', fontSize: 20, marginBottom: 8 }}>The Journey</p>
@@ -210,7 +210,7 @@ export default function About() {
       </section>
 
       {/* Why Choose */}
-      <section style={{ padding: 'clamp(60px, 8vw, 150px)', background: 'white' }}>
+      <section style={{ padding: 'clamp(10px, 8vw, 150px)', background: 'white' }}>
         <div style={{ maxWidth: 800, margin: '0 auto', padding: '0' }}>
           <div className="reveal" style={{ textAlign: 'center', marginBottom: 64 }}>
             <p className="font-script" style={{ color: '#daa520', fontSize: 20, marginBottom: 8 }}>What Sets Us Apart</p>
@@ -234,7 +234,7 @@ export default function About() {
       </section>
 
       {/* CTA */}
-      <section style={{ padding: 'clamp(60px, 8vw, 150px)', background: 'linear-gradient(135deg, #1a1a2e, #2a1a3e)' }}>
+      <section style={{ padding: 'clamp(10px, 8vw, 150px)', background: 'linear-gradient(135deg, #1a1a2e, #2a1a3e)' }}>
         <div className="reveal" style={{ maxWidth: 800, margin: '0 auto', padding: '0 16px', textAlign: 'center' }}>
           <Award size={48} style={{ color: '#daa520', margin: '0 auto 24px', display: 'block' }} />
           <h2 style={{ fontSize: 'clamp(24px, 4vw, 36px)', fontFamily: 'var(--font-serif)', fontWeight: 700, color: 'white', marginBottom: 16 }}>Ready to Create Your Wedding Dance?</h2>

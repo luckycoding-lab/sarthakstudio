@@ -62,7 +62,7 @@ export default function Contact() {
       </section>
 
       {/* 3-Step */}
-      <section style={{  padding: 'clamp(20px, 8vw, 80px)', background: 'linear-gradient(to right, #fdf8ef, white)', borderBottom: '1px solid rgba(218,165,32,0.1)' }}>
+      <section style={{  padding: 'clamp(10px, 8vw, 80px)', background: 'linear-gradient(to right, #fdf8ef, white)', borderBottom: '1px solid rgba(218,165,32,0.1)' }}>
         <div style={{ maxWidth: 800, margin: '0 auto', padding: '0 16px', display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 16 }}>
           {[
             { step: '1', title: 'Inquire', desc: 'Fill the form or call us' },
@@ -79,7 +79,7 @@ export default function Contact() {
       </section>
 
       {/* Contact Form + Info */}
-      <section style={{  padding: 'clamp(20px, 8vw, 80px)', background: 'white' }}>
+      <section style={{  padding: 'clamp(10px, 8vw, 80px)', background: 'white' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 48 }}>
             {/* Form */}
@@ -223,7 +223,7 @@ export default function Contact() {
       </section>
 
       {/* FAQ */}
-      <section style={{ padding: 'clamp(60px, 8vw, 80px) 0', background: '#faf9f6' }}>
+      <section style={{ padding: 'clamp(10px, 8vw, 80px) 0', background: '#faf9f6' }}>
         <div style={{ maxWidth: 700, margin: '0 auto', padding: '0 16px' }}>
           <div className="reveal" style={{ textAlign: 'center', marginBottom: 48 }}>
             <p className="font-script" style={{ color: '#daa520', fontSize: 20, marginBottom: 8 }}>Common Questions</p>
@@ -251,7 +251,7 @@ export default function Contact() {
       </section>
 
       {/* Final CTA */}
-      <section style={{ padding: 'clamp(60px, 8vw, 80px) 0', background: 'linear-gradient(135deg, #4b0032, #1a1a2e)' }}>
+      <section style={{ padding: 'clamp(10px, 8vw, 80px) 0', background: 'linear-gradient(135deg, #4b0032, #1a1a2e)' }}>
         <div className="reveal" style={{ maxWidth: 800, margin: '0 auto', padding: '0 16px', textAlign: 'center' }}>
           <p className="font-script" style={{ color: '#daa520', fontSize: 24, marginBottom: 16 }}>Your Dream Awaits</p>
           <h2 style={{ fontSize: 'clamp(24px, 5vw, 48px)', fontFamily: 'var(--font-serif)', fontWeight: 700, color: 'white', marginBottom: 24, lineHeight: 1.2 }}>

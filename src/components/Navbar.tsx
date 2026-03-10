@@ -44,7 +44,8 @@ export default function Navbar() {
         background: scrolled ? "rgba(26,26,46,0.96)" : "transparent",
         backdropFilter: scrolled ? "blur(20px)" : "none",
         boxShadow: scrolled ? "0 10px 40px rgba(0,0,0,0.3)" : "none",
-        padding: scrolled ? "8px 0" : "16px 0",
+        // padding: scrolled ? "8px 0" : "16px 0",
+        padding: "16px",
       }}
       className="flex flex-col md:flex-row"
     >

@@ -87,7 +87,7 @@ export default function Testimonials() {
       </section>
 
       {/* Horizontal Carousel */}
-      <section style={{ padding: 'clamp(20px, 8vw, 80px)', background: 'white', position: 'relative' }}>
+      <section style={{ padding: 'clamp(10px, 8vw, 80px)', background: 'white', position: 'relative' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="reveal" style={{ textAlign: 'center', marginBottom: 48 }}>
             <p className="font-script" style={{ color: '#daa520', fontSize: 20, marginBottom: 8 }}>Real Stories</p>
@@ -152,7 +152,7 @@ export default function Testimonials() {
 
       {/* VIDEO TESTIMONIALS SECTION */}
       <section style={{ 
-        padding: 'clamp(60px, 8vw, 150px)', 
+        padding: 'clamp(10px, 8vw, 150px)', 
         background: '#1a1a2e',
         position: 'relative' 
       }}>
@@ -262,7 +262,7 @@ export default function Testimonials() {
       </section>
 
       {/* CTA */}
-      <section style={{ padding: 'clamp(60px, 8vw, 80px) 0', background: 'white' }}>
+      <section style={{ padding: 'clamp(10px, 8vw, 80px) 0', background: 'white' }}>
         <div className="reveal" style={{ maxWidth: 800, margin: '0 auto', padding: '0 16px', textAlign: 'center' }}>
           <h2 style={{ fontSize: 'clamp(24px, 4vw, 36px)', fontFamily: 'var(--font-serif)', fontWeight: 700, color: '#1a1a2e', marginBottom: 16 }}>Join Our Family of Happy Clients</h2>
           <p style={{ color: '#6b7280', marginBottom: 32 }}>Your wedding performance could be our next success story!</p>
