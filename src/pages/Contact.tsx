@@ -102,7 +102,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <label style={{ display: 'block', fontSize: 14, fontWeight: 600, color: '#1a1a2e', marginBottom: 6 }}>Phone Number *</label>
-                      <input type="tel" required value={formData.phone} onChange={e => update('phone', e.target.value)} placeholder="+91 98765 43210" style={inputStyle} />
+                      <input type="tel" required value={formData.phone} onChange={e => update('phone', e.target.value)} placeholder="+91 7906678752" style={inputStyle} />
                     </div>
                   </div>
                   <div>
@@ -162,8 +162,8 @@ export default function Contact() {
                 <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: 20, fontWeight: 700, marginBottom: 24 }}>Direct Contact</h3>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
                   {[
-                    { icon: Phone, label: 'Call Us', value: '+91 98765 43210', href: 'tel:+9179066 78752', bg: 'rgba(218,165,32,0.1)', border: 'rgba(218,165,32,0.2)', iconColor: '#daa520' },
-                    { icon: MessageCircle, label: 'WhatsApp', value: '+91 98765 43210', href: 'https://wa.me/9179066 78752', bg: 'rgba(34,197,94,0.1)', border: 'rgba(34,197,94,0.2)', iconColor: '#4ade80' },
+                    { icon: Phone, label: 'Call Us', value: '+91 7906678752', href: 'tel:+9179066 78752', bg: 'rgba(218,165,32,0.1)', border: 'rgba(218,165,32,0.2)', iconColor: '#daa520' },
+                    { icon: MessageCircle, label: 'WhatsApp', value: '+91 7906678752', href: 'https://wa.me/9179066 78752', bg: 'rgba(34,197,94,0.1)', border: 'rgba(34,197,94,0.2)', iconColor: '#4ade80' },
                     { icon: Mail, label: 'Email', value: 'info@spdancecompany.com', href: 'mailto:info@spdancecompany.com', bg: 'rgba(59,130,246,0.1)', border: 'rgba(59,130,246,0.2)', iconColor: '#60a5fa' },
                   ].map(({ icon: Icon, label, value, href, bg, border, iconColor }) => (
                     <a key={label} href={href} target={label === 'WhatsApp' ? '_blank' : undefined} rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: 16, textDecoration: 'none', color: 'inherit' }}>

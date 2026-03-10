@@ -26,15 +26,15 @@ function useReveal() {
 
 // 2. UPDATED VIDEO DATA (Linking to imported local files)
 const videos = [
-  { id: 1, url: vid1, title: 'Bride Solo - Kajra Re', category: 'Solo Dance', style: 'Semi-Classical', location: 'Noida', views: '15K', likes: '2.1K', desc: 'A stunning bride solo performance combining classical and modern moves.' },
+  { id: 1, url: vid1, title: 'Bride Parents — Kudmayi Song', category: 'Solo Dance', style: 'Semi-Classical', location: 'Noida', views: '15K', likes: '2.1K', desc: 'A stunning bride parents performance combining classical and modern moves.' },
   { id: 2, url: vid6, title: 'Priya & Rahul - Sangeet', category: 'Couple Dance', style: 'Bollywood', location: 'Delhi', views: '12K', likes: '1.2K', desc: 'A beautiful romantic performance that left everyone in tears of joy.' },
   { id: 3, url: vid11, title: 'Sharma Family Group Dance', category: 'Group Dance', style: 'Bollywood', location: 'Gurgaon', views: '8.5K', likes: '920', desc: 'A high-energy group of 15 family members dancing on a Bollywood mashup.' },
   { id: 4, url: vid4, title: 'Home Practice Session', category: 'Solo Dance', style: 'Contemporary', location: 'Delhi', views: '20K', likes: '3.5K', desc: 'Behind the scenes of our intensive home training sessions.' },
-  { id: 5, url: vid13, title: 'Grand Family Finale', category: 'Group Dance', style: 'Mixed', location: 'Greater Noida', views: '9K', likes: '1.1K', desc: 'The grand finale where both families join for an epic dance-off.' },
-  { id: 6, url: vid14, title: 'Online Training Batch A', category: 'Couple Dance', style: 'Bollywood', location: 'Remote', views: '18K', likes: '2.8K', desc: 'Our global students rocking their choreography via Zoom.' },
-  { id: 7, url: vid15, title: 'Sangeet Night Energy', category: 'Group Dance', style: 'Bollywood', location: 'Faridabad', views: '10K', likes: '1.5K', desc: 'High energy group dance with cousins and friends.' },
-  { id: 8, url: vid16, title: 'Couple Waltz Practice', category: 'Couple Dance', style: 'Western', location: 'Delhi', views: '11K', likes: '1.8K', desc: 'Elegance in motion during our western waltz training.' },
-  { id: 9, url: vid2, title: 'Technique Workshop', category: 'Solo Dance', style: 'Classical', location: 'Ghaziabad', views: '22K', likes: '4.2K', desc: 'Focusing on mudras and expressions in our solo workshop.' },
+  { id: 5, url: vid13, title: 'Mehndi Celebration', category: 'Group Dance', style: 'Mixed', location: 'Greater Noida', views: '9K', likes: '1.1K', desc: 'The grand finale where both families join for an epic dance-off.' },
+  { id: 6, url: vid14, title: 'Offline Training Session', category: 'Couple Dance', style: 'Bollywood', location: 'Remote', views: '18K', likes: '2.8K', desc: 'Our global students rocking their choreography via Zoom.' },
+  { id: 7, url: vid15, title: 'Online Training Session', category: 'Group Dance', style: 'Bollywood', location: 'Faridabad', views: '10K', likes: '1.5K', desc: 'High energy group dance with cousins and friends.' },
+  { id: 8, url: vid16, title: 'Online Training Session- Batch 02', category: 'Couple Dance', style: 'Western', location: 'Delhi', views: '11K', likes: '1.8K', desc: 'Elegance in motion during our western waltz training.' },
+  { id: 9, url: vid2, title: 'Online Training Session- Batch 03', category: 'Solo Dance', style: 'Classical', location: 'Ghaziabad', views: '22K', likes: '4.2K', desc: 'Focusing on mudras and expressions in our solo workshop.' },
 ];
 
 const categories = ['All', 'Couple Dance', 'Group Dance', 'Solo Dance'];

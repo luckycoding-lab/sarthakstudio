@@ -126,7 +126,7 @@ export default function Footer() {
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
                 <Phone size={16} style={{ color: '#daa520', flexShrink: 0 }} />
-                <a href="tel:+9179066 78752" style={{ fontSize: 14, color: '#9ca3af', textDecoration: 'none' }}>+91 98765 43210</a>
+                <a href="tel:+9179066 78752" style={{ fontSize: 14, color: '#9ca3af', textDecoration: 'none' }}>+91 7906678752</a>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
                 <Mail size={16} style={{ color: '#daa520', flexShrink: 0 }} />

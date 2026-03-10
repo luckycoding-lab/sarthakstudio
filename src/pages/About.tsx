@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Award, Users, Heart, Star, Music, MapPin, Clock, CheckCircle, ArrowRight, Sparkles } from 'lucide-react';
 import { useEffect, useRef } from 'react';
-
+import ProfileImg from '../assets/Profile/Profile.jpeg';
 function useReveal() {
   const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -58,60 +58,135 @@ export default function About() {
 
       {/* Profile */}
       <section style={{ padding: 'clamp(60px, 8vw, 150px)', background: 'white' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 64, alignItems: 'center' }}>
-            <div className="reveal">
-              <div style={{ position: 'relative', maxWidth: 420, margin: '0 auto' }}>
-                <div style={{ aspectRatio: '3/4', borderRadius: 24, background: 'linear-gradient(135deg, #1a1a2e, #2a1a3e)', overflow: 'hidden', boxShadow: '0 25px 60px rgba(0,0,0,0.2)', position: 'relative' }}>
-                  <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    <div style={{ textAlign: 'center' }}>
-                      <div style={{ width: 160, height: 160, margin: '0 auto', borderRadius: '50%', background: 'linear-gradient(135deg, #daa520, #b8860b)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 24, boxShadow: '0 15px 50px rgba(184,134,11,0.4)' }}>
-                        <span style={{ color: '#1a1a2e', fontSize: 60, fontFamily: 'var(--font-serif)', fontWeight: 700 }}>SD</span>
-                      </div>
-                      <h3 style={{ color: 'white', fontSize: 22, fontFamily: 'var(--font-serif)', fontWeight: 700, margin: 0 }}>Sarthak Diwakar</h3>
-                      <p style={{ color: '#daa520', marginTop: 4 }}>Dance Teacher & Choreographer</p>
-                      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 2, marginTop: 12 }}>
-                        {[...Array(5)].map((_, i) => <Star key={i} size={16} style={{ color: '#daa520', fill: '#daa520' }} />)}
-                      </div>
-                      <p style={{ color: '#9ca3af', fontSize: 14, marginTop: 8 }}>4.9/5 from 200+ Reviews</p>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 64, alignItems: 'center' }}>
+          
+          <div className="reveal">
+            <div style={{ position: 'relative', maxWidth: 420, margin: '0 auto' }}>
+              {/* Image Container */}
+              <div style={{ 
+                aspectRatio: '3/4', 
+                borderRadius: 24, 
+                backgroundColor: '#1a1a2e', 
+                overflow: 'hidden', 
+                boxShadow: '0 25px 60px rgba(0,0,0,0.2)', 
+                position: 'relative' 
+              }}>
+                <img 
+                  src={ProfileImg} 
+                  alt="Sarthak Diwakar Profile" 
+                  style={{ 
+                    width: '100%', 
+                    height: '100%', 
+                    objectFit: 'cover',
+                    display: 'block'
+                  }} 
+                />
+                
+                {/* Gradient Overlay */}
+                <div style={{ 
+                  position: 'absolute', 
+                  inset: 0, 
+                  background: 'linear-gradient(to top, rgba(26,26,46,0.85) 0%, transparent 60%)' 
+                }} />
+
+                {/* Content Overlay */}
+                <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <div style={{ textAlign: 'center', zIndex: 2 }}>
+                    <div style={{ 
+                      width: 160, 
+                      height: 160, 
+                      margin: '0 auto', 
+                      borderRadius: '50%', 
+                      border: '4px solid #daa520',
+                      background: 'rgba(26,26,46,0.4)',
+                      backdropFilter: 'blur(8px)',
+                      display: 'flex', 
+                      alignItems: 'center', 
+                      justifyContent: 'center', 
+                      marginBottom: 24, 
+                      boxShadow: '0 15px 50px rgba(0,0,0,0.4)' 
+                    }}>
+                      <span style={{ color: '#daa520', fontSize: 60, fontFamily: 'var(--font-serif)', fontWeight: 700 }}>SD</span>
                     </div>
+                    <h3 style={{ color: 'white', fontSize: 24, fontFamily: 'var(--font-serif)', fontWeight: 700, margin: 0 }}>Sarthak Diwakar</h3>
+                    <p style={{ color: '#daa520', marginTop: 4, fontWeight: 600, letterSpacing: '0.05em' }}>Dance Teacher & Choreographer</p>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 2, marginTop: 12 }}>
+                      {[...Array(5)].map((_, i) => <Star key={i} size={16} style={{ color: '#daa520', fill: '#daa520' }} />)}
+                    </div>
+                    <p style={{ color: '#e5e7eb', fontSize: 14, marginTop: 8 }}>4.9/5 from 200+ Reviews</p>
                   </div>
-                  <div style={{ position: 'absolute', top: 16, left: 16, width: 80, height: 80, borderTop: '2px solid rgba(218,165,32,0.3)', borderLeft: '2px solid rgba(218,165,32,0.3)', borderRadius: '16px 0 0 0' }} />
-                  <div style={{ position: 'absolute', bottom: 16, right: 16, width: 80, height: 80, borderBottom: '2px solid rgba(218,165,32,0.3)', borderRight: '2px solid rgba(218,165,32,0.3)', borderRadius: '0 0 16px 0' }} />
                 </div>
-                <div style={{ position: 'absolute', bottom: -24, left: -16, background: 'white', borderRadius: 16, boxShadow: '0 10px 40px rgba(0,0,0,0.1)', padding: '16px 20px', border: '1px solid rgba(218,165,32,0.1)' }}>
-                  <p className="gold-shimmer" style={{ fontSize: 28, fontFamily: 'var(--font-serif)', fontWeight: 700, margin: 0 }}>8+</p>
-                  <p style={{ fontSize: 12, color: '#6b7280', margin: 0 }}>Years Experience</p>
-                </div>
-                <div style={{ position: 'absolute', top: -16, right: -16, background: '#1a1a2e', borderRadius: 16, boxShadow: '0 10px 40px rgba(0,0,0,0.2)', padding: '16px 20px', border: '1px solid rgba(218,165,32,0.2)' }}>
-                  <p style={{ fontSize: 28, fontFamily: 'var(--font-serif)', fontWeight: 700, color: '#daa520', margin: 0 }}>500+</p>
-                  <p style={{ fontSize: 12, color: '#9ca3af', margin: 0 }}>Weddings Done</p>
-                </div>
+
+                {/* Visual Accent Corners */}
+                <div style={{ position: 'absolute', top: 16, left: 16, width: 80, height: 80, borderTop: '2px solid rgba(218,165,32,0.8)', borderLeft: '2px solid rgba(218,165,32,0.8)', borderRadius: '16px 0 0 0', zIndex: 3 }} />
+                <div style={{ position: 'absolute', bottom: 16, right: 16, width: 80, height: 80, borderBottom: '2px solid rgba(218,165,32,0.8)', borderRight: '2px solid rgba(218,165,32,0.8)', borderRadius: '0 0 16px 0', zIndex: 3 }} />
               </div>
-            </div>
-            <div className="reveal" style={{ transitionDelay: '0.2s' }}>
-              <p className="font-script" style={{ color: '#daa520', fontSize: 20, marginBottom: 8 }}>My Philosophy</p>
-              <h2 style={{ fontSize: 'clamp(24px, 4vw, 36px)', fontFamily: 'var(--font-serif)', fontWeight: 700, color: '#1a1a2e', marginBottom: 24 }}>
-                Every Step Should Tell <span style={{ color: '#4b0032' }}>Your Story</span>
-              </h2>
-              <p style={{ color: '#4b5563', lineHeight: 1.7, marginBottom: 16 }}>Dance is the most beautiful way to express love, and when I choreograph a wedding performance, I do not just teach steps—I help you express the emotions, joy, and celebration that your special day deserves.</p>
-              <p style={{ color: '#4b5563', lineHeight: 1.7, marginBottom: 16 }}>My approach is simple: I understand your vision, assess your comfort level, choose the perfect music, and create a routine that feels natural yet looks spectacular. Specializing in Bollywood, the vibrant heart of Indian celebrations where I blend cinematic drama with modern rhythm for a larger-than-life stage presence, and Hip-Hop, where I infuse high-octane urban grooves and sharp, stylish footwork into your routine, I ensure every performance is unique.</p>
-              <p style={{ color: '#4b5563', lineHeight: 1.7, marginBottom: 24 }}>Having trained across these and Classical, Contemporary, and Western dance forms, I bring a level of versatility that allows me to choreograph any style you dream of, turning your vision into an effortless and professional reality.</p>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginBottom: 32 }}>
-                {['Trained in 5+ dance forms', 'Certified dance instructor', 'Specializes in wedding choreography', 'Patient with beginners', 'Creative song mixing and mashups'].map((item, i) => (
-                  <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-                    <CheckCircle size={18} style={{ color: '#daa520', flexShrink: 0 }} />
-                    <span style={{ color: '#374151', fontSize: 14 }}>{item}</span>
-                  </div>
-                ))}
+
+              {/* Floating Statistic Badges */}
+              <div style={{ position: 'absolute', bottom: -24, left: -16, background: 'white', borderRadius: 16, boxShadow: '0 10px 40px rgba(0,0,0,0.1)', padding: '16px 20px', border: '1px solid rgba(218,165,32,0.1)', zIndex: 4 }}>
+                <p style={{ fontSize: 28, fontFamily: 'var(--font-serif)', fontWeight: 700, margin: 0, color: '#1a1a2e' }}>8+</p>
+                <p style={{ fontSize: 12, color: '#6b7280', margin: 0, fontWeight: 500 }}>Years Experience</p>
               </div>
-              <Link to="/contact" style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '12px 32px', background: 'linear-gradient(to right, #daa520, #b8860b)', color: '#1a1a2e', borderRadius: 9999, fontWeight: 700, textDecoration: 'none', transition: 'all 0.3s' }}>
-                Book a Session <ArrowRight size={16} />
-              </Link>
+              <div style={{ position: 'absolute', top: -16, right: -16, background: '#1a1a2e', borderRadius: 16, boxShadow: '0 10px 40px rgba(0,0,0,0.2)', padding: '16px 20px', border: '1px solid rgba(218,165,32,0.2)', zIndex: 4 }}>
+                <p style={{ fontSize: 28, fontFamily: 'var(--font-serif)', fontWeight: 700, color: '#daa520', margin: 0 }}>500+</p>
+                <p style={{ fontSize: 12, color: '#9ca3af', margin: 0, fontWeight: 500 }}>Weddings Done</p>
+              </div>
             </div>
           </div>
+
+          {/* Philosophy and Content */}
+          <div className="reveal" style={{ transitionDelay: '0.2s' }}>
+            <p className="font-script" style={{ color: '#daa520', fontSize: 22, marginBottom: 8 }}>My Philosophy</p>
+            <h2 style={{ fontSize: 'clamp(28px, 4vw, 42px)', fontFamily: 'var(--font-serif)', fontWeight: 700, color: '#1a1a2e', marginBottom: 24, lineHeight: 1.2 }}>
+              Every Step Should Tell <span style={{ color: '#4b0032' }}>Your Story</span>
+            </h2>
+            <p style={{ color: '#4b5563', lineHeight: 1.8, marginBottom: 20, fontSize: '1.05rem' }}>
+              Dance is the most beautiful way to express love. When I choreograph a wedding performance, I don't just teach steps—I help you express the emotions, joy, and celebration that your special day deserves.
+            </p>
+            <p style={{ color: '#4b5563', lineHeight: 1.8, marginBottom: 24 }}>
+              My approach is intuitive: I understand your vision, assess your comfort level, and create a routine that feels natural yet looks spectacular on stage.
+            </p>
+            
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 14, marginBottom: 40 }}>
+              {[
+                'Trained in 5+ global dance forms', 
+                'Expertise in Bollywood & Urban Hip-Hop',
+                'Specialized Wedding Choreography', 
+                'Absolute Beginner Friendly'
+              ].map((item, i) => (
+                <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+                  <div style={{ background: 'rgba(218,165,32,0.1)', padding: 4, borderRadius: '50%' }}>
+                    <CheckCircle size={18} style={{ color: '#daa520', display: 'block' }} />
+                  </div>
+                  <span style={{ color: '#374151', fontSize: 15, fontWeight: 500 }}>{item}</span>
+                </div>
+              ))}
+            </div>
+
+            <Link to="/contact" style={{ 
+              display: 'inline-flex', 
+              alignItems: 'center', 
+              gap: 12, 
+              padding: '16px 40px', 
+              background: 'linear-gradient(135deg, #daa520, #b8860b)', 
+              color: '#1a1a2e', 
+              borderRadius: 9999, 
+              fontWeight: 800, 
+              textDecoration: 'none', 
+              transition: 'transform 0.3s, box-shadow 0.3s',
+              boxShadow: '0 10px 20px rgba(184,134,11,0.2)'
+            }}
+            onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-2px)'}
+            onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
+            >
+              Start Your Journey <ArrowRight size={18} />
+            </Link>
+          </div>
+
         </div>
-      </section>
+      </div>
+    </section>
 
       {/* Timeline */}
       <section style={{ padding: 'clamp(60px, 8vw, 150px)', background: '#faf9f6' }}>

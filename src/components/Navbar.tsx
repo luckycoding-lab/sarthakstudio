@@ -126,15 +126,15 @@ export default function Navbar() {
                 }}
                 onMouseEnter={(e) => {
                   if (location.pathname !== link.path) {
-                    (e.target as HTMLElement).style.color = "white";
-                    (e.target as HTMLElement).style.background =
+                    (e.target).style.color = "white";
+                    (e.target).style.background =
                       "rgba(255,255,255,0.05)";
                   }
                 }}
                 onMouseLeave={(e) => {
                   if (location.pathname !== link.path) {
-                    (e.target as HTMLElement).style.color = "#d1d5db";
-                    (e.target as HTMLElement).style.background = "transparent";
+                    (e.target).style.color = "#d1d5db";
+                    (e.target).style.background = "transparent";
                   }
                 }}
               >
